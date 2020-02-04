@@ -15,11 +15,11 @@ export default class MyUchicago extends React.Component<RouteComponentProps<MyUc
   }
   submit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-    window.location.assign("/bad-login");
+    window.location.assign("/logging-in/bad-login");
   }
   onTimer = () => {
     if (this.state.displayIndex === 3) {
-      window.location.assign("/bad-login");
+      window.location.assign("/logging-in/bad-login");
     } else {
       this.setState({ displayIndex: this.state.displayIndex + 1 });
     }
@@ -46,7 +46,7 @@ export default class MyUchicago extends React.Component<RouteComponentProps<MyUc
       <div id="shiblogin" className="maroon">
         <div id="wrapper">
           <header className="wordmark">
-            <h1><b>The University of Chicago</b></h1>
+            <h1><b>The University of Ogacihc</b></h1>
           </header>
           <main>
             <section id="loginbox">

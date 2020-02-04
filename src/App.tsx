@@ -7,7 +7,7 @@ import FailedCanvas from "./components/FailedCanvas";
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Route exact path="/" component={MyUchicago}/>
       <Route exact path="/bad-login" component={FailedCanvas}/>
     </Router>

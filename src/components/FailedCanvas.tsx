@@ -154,11 +154,11 @@ const todos = (
         <div className="h2 shared-space">
           <h2>Error getting content</h2>
           <span>HTTP 403 - Forbidden</span>
-          <a href="/">Detailed error description</a>
+          <a href="/logging-in">Detailed error description</a>
         </div>
         <ul className="right-side-list events">
           <li style={{}} className="event">
-            <a data-track-category="dashboard" data-track-label="recent feedback" className="recent_feedback_icon" href="/">
+            <a data-track-category="dashboard" data-track-label="recent feedback" className="recent_feedback_icon" href="/logging-in">
               <i className="icon-check"></i>
               <div className="event-details">
                 <b className="event-details__title recent_feedback_title">
@@ -174,7 +174,7 @@ const todos = (
             <div className="clear"></div>
           </li>
           <li style={{}} className="event">
-            <a data-track-category="dashboard" data-track-label="recent feedback" className="recent_feedback_icon" href="/">
+            <a data-track-category="dashboard" data-track-label="recent feedback" className="recent_feedback_icon" href="/logging-in">
               <i className="icon-check"></i>
               <div className="event-details">
                 <b className="event-details__title recent_feedback_title">
@@ -192,7 +192,7 @@ const todos = (
         </ul>
       </div>
       <div>
-        <a href="/" className="Button button-sidebar-wide">
+        <a href="/logging-in" className="Button button-sidebar-wide">
           View Grades
         </a>
       </div>
