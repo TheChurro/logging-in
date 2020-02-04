@@ -59,7 +59,7 @@ export default class DashboardCardBox extends React.Component<DashboardCardBoxPr
       cards: [
         {
           uid: 0,
-          cardColor: "rbg(69, 84, 164)",
+          cardColor: "#4553A4",
           courseNickname: "Visual Language: On Images",
           courseName: "ARTV 10100 4,4 (Winter 2020) Visual Language: On Images",
           courseTerm: "2020.01",
@@ -83,7 +83,7 @@ export default class DashboardCardBox extends React.Component<DashboardCardBoxPr
         },
         {
           uid: 3,
-          cardColor: "rbg(69, 84, 164)",
+          cardColor: "#0076B8",
           courseNickname: "Media Arts, Data, and Design Center",
           courseName: "MAAD Center",
           courseTerm: "ORG",

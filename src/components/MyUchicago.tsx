@@ -15,11 +15,11 @@ export default class MyUchicago extends React.Component<RouteComponentProps<MyUc
   }
   submit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-    window.location.assign("/logging-in/bad-login");
+    window.location.replace(process.env.PUBLIC_URL + "#/bad-login");
   }
   onTimer = () => {
     if (this.state.displayIndex === 3) {
-      window.location.assign("/logging-in/bad-login");
+      window.location.replace(process.env.PUBLIC_URL + "#/bad-login");
     } else {
       this.setState({ displayIndex: this.state.displayIndex + 1 });
     }
